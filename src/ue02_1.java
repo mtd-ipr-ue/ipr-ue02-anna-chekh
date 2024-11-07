@@ -11,16 +11,14 @@ public class ue02_1 {
 
         Out.println("Please write down the third number");
         int num3 = In.readInt();
-
-        int max=num1;
-
-        if (num2 > max){
+        int max = num1;
+        if (num2 > max) {
             max = num2;
         }
-        if (num3 > max){
-            max =num3;
+        if (num3 > max) {
+            max = num3;
         }
-        Out.println("The maximum of your numbers is "+max);
+        Out.println("The maximum of your numbers is " + max);
 
     }
 }
